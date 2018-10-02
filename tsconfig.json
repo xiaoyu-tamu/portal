@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types"],
+    "lib": ["dom", "es2015", "es2016"],
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "typings/**/*"]
+}
